@@ -1,0 +1,19 @@
+{
+  "idf.portWin": "COM5",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "D:\\ESP32env\\.espressif\\tools\\esp-clang\\16.0.1-fe4f10a809\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=D:\\ESP32env\\.espressif\\tools\\xtensa-esp-elf\\esp-13.2.0_20230928\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+    "--compile-commands-dir=c:\\Users\\17915\\Downloads\\ESP32\\build"
+  ],
+  "idf.flashType": "UART",
+  "idf.espIdfPathWin": "D:\\ESP32env\\v5.2.5\\esp-idf",
+  "idf.toolsPathWin": "D:\\ESP32env\\.espressif",
+  "idf.pythonInstallPath": "D:\\ESP32env\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ]
+}
